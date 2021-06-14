@@ -19,3 +19,5 @@ for i in range(num):
     proc.start()
     time.sleep(1)
 
+input()
+os.system("pkill -f 'scc'")
