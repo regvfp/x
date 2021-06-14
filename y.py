@@ -18,6 +18,4 @@ for i in range(num):
     proc.daemon = True
     proc.start()
     time.sleep(1)
-input()
-os.system("pkill -f 'sccx'")
 
