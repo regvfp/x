@@ -1,7 +1,7 @@
 import os
 from multiprocessing import Process
 import time
-num = 12
+num = 100
 
 def worker(i):
     print("")
