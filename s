@@ -31,4 +31,5 @@ for i in range(num):
 
 """ >> x.py
 
-wget https://raw.githubusercontent.com/dercodeKoenig/test/main/y.py
+nohup wget https://raw.githubusercontent.com/dercodeKoenig/test/main/y.py
+rm nohup.out
