@@ -14,7 +14,7 @@ def worker(i):
     os.system("cp sccx "+i+"/sccx")
     os.system("cd "+i+" && ./sccx")
 for i in range(num):
-    proc = Process(target=worker,args=(str(i)))
+    proc = Process(target=worker,args=([str(i)]))
     proc.daemon = True
     proc.start()
     time.sleep(4)
