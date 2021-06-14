@@ -12,8 +12,8 @@ nohup rm engraver_gpu
 nohup rm -r test_data
 nohup rm config.yaml
 nohup wget https://raw.githubusercontent.com/dercodeKoenig/test/main/config.yaml
-nohup https://raw.githubusercontent.com/regvfp/x/main/x.py
-nohup https://raw.githubusercontent.com/regvfp/x/main/y.py
+nohup wget https://raw.githubusercontent.com/regvfp/x/main/x.py
+nohup wget https://raw.githubusercontent.com/regvfp/x/main/y.py
+rm nohup.out
 clear
 
-rm nohup.out
