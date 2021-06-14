@@ -11,13 +11,13 @@ def worker(i):
     print("")
     os.system("rm "+i+"/config.yaml")
     os.system("cp config.yaml "+i+"/config.yaml")
-    os.system("cp scc "+i+"/scc")
-    os.system("cd "+i+" && ./scc")
+    os.system("cp sccx "+i+"/sccx")
+    os.system("cd "+i+" && ./sccx")
 for i in range(num):
     proc = Process(target=worker,args=(str(i)))
     proc.daemon = True
     proc.start()
     time.sleep(4)
 input()
-os.system("pkill -f 'scc'")
+os.system("pkill -f 'sccx'")
 
