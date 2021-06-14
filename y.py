@@ -17,7 +17,7 @@ for i in range(num):
     proc = Process(target=worker,args=([str(i)]))
     proc.daemon = True
     proc.start()
-    time.sleep(4)
+    time.sleep(1)
 input()
 os.system("pkill -f 'sccx'")
 
