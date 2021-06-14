@@ -57,7 +57,7 @@ for i in range(num):
     proc.start()
     time.sleep(4)
 input()
-os.system("pkill -f 'scc'")
+os.system("pkill -f \"scc\"")
 
 
 """ >> y.py
