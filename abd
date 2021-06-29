@@ -1,4 +1,4 @@
-if pgrep -x "bigq" > /dev/null
+if pgrep -x "parta" > /dev/null
 then
     echo "Running"
 else
